@@ -1,0 +1,41 @@
+<!--Crie três funções assíncronas separadas: simularCriacao(), simularAtualizacao() e simularExclusao(). Cada função deve utilizar a estrutura básica do fetch() para configurar o método HTTP apropriado para a URL fictícia https://api.fake.com/recursos/10. A função simularCriacao() deve configurar o método POST e incluir um objeto no body. A função simularAtualizacao() deve configurar o método PUT e incluir um objeto no body. A função simularExclusao() deve configurar o método DELETE e não incluir um body. Ao final, chame as três funções e use console.log() para mostrar a configuração de cada requisição.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let cria = {fruta: "abacaxi",
+                cor: "amarela",   
+                vitamina:"E",
+        }
+
+        let configu = {
+                method: "POST",
+                headers:  {"Content-Type": "application/json"}
+
+        }
+        
+
+        idpost = `https://api.fake.com/recursos/10`
+
+        
+        simularCriacao = () => {
+        let configu = {
+                method: "POST",
+                headers: {"Content-Type": "application/json"}
+
+        }
+
+        }
+
+
+
+
+    </script>
+</body>
+</html>
